@@ -1,0 +1,120 @@
+html,
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif; */
+
+/* Colors
+Primary
+Dark cyan: hsl(158, 36%, 37%)
+Cream: hsl(30, 38%, 92%)
+Neutral
+Very dark blue: hsl(212, 21%, 14%)
+Dark grayish blue: hsl(228, 12%, 48%)
+White: hsl(0, 0%, 100%) */
+
+.main-card {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    width: 820px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.left-panel {
+    width: 50%;
+}
+
+.left-panel img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.right-panel {
+    width: 50%;
+}
+
+.category {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 40px;
+    letter-spacing: 6px;
+}
+
+.product-name {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    font-weight: 700;
+    margin-left: 30px;
+    font-size: 48px;
+    line-height: .95;
+}
+
+.summary {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    margin-left: 30px;
+    margin-right: 25px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.sale-price {
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    margin-left: 50px;
+    margin-top: 40px;
+    display: inline-block;
+    font-size: 45px;
+}
+
+.old-price {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 35px;
+    text-decoration: line-through;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 35px;
+    padding: 20px 80px;
+}
+
+.btnIcon {
+    margin-right: 10px;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    font-size: 11px; text-align: center;
+}
+
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
